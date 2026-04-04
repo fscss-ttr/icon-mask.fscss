@@ -1,0 +1,69 @@
+{
+  "name": "icon-mask",
+  "version": "1.0.0",
+  "description": "Lightweight FSCSS-based plugin for SVG icon utilities using CSS mask-image technique",
+  "extension": "fscss",
+  "fscss_version": "^1.1.24",
+  "blocked_methods": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fscss-ttr/icon-mask.fscss"
+  },
+  "bugs": {
+    "url": "https://github.com/fscss-ttr/icon-mask.fscss/issues"
+  },
+  "file": {
+    "usage": {
+      "directive": "icon-*",
+      "helpers": [
+        "icon-color",
+        "icon-size",
+        "icon-base",
+        "icon-home",
+        "icon-chart",
+        "icon-settings",
+        "icon-users",
+        "icon-messages",
+        "icon-notifications",
+        "icon-calendar",
+        "icon-files",
+        "icon-tasks",
+        "icon-teams",
+        "icon-reports",
+        "icon-support",
+        "icon-inbox",
+        "icon-logout",
+        "icon-profile",
+        "icon-search",
+        "icon-filter",
+        "icon-download",
+        "icon-upload",
+        "icon-star",
+        "icon-clock",
+        "icon-alert",
+        "icon-menu",
+        "icon-times",
+        "icon-pack",
+        "icon"
+      ]
+    },
+    "modules": [
+      "./icon-mask.fscss"
+    ],
+    "remote": "./icon-mask.fscss"
+  },
+  "author": {
+    "name": "fscss-ttr"
+  },
+  "keywords": [
+    "fscss",
+    "css",
+    "lightweight",
+    "fscss-based",
+    "icons",
+    "svg",
+    "mask-image",
+    "utility"
+  ],
+  "license": "MIT"
+}
