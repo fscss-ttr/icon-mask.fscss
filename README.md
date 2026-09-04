@@ -1,6 +1,6 @@
 # icon-mask
 
-**icon-mask** is a lightweight FSCSS-based plugin for SVG icon rendering using the CSS `mask-image` technique. It provides a collection of ready-to-use icon macros that render inline SVG icons purely through CSS — no `<img>` tags, no external icon fonts, no JS.
+**icon-mask** is a lightweight FSCSS-based library for SVG icon rendering using the CSS `mask-image` technique. It provides a collection of ready-to-use icon macros that render inline SVG icons purely through CSS — no `<img>` tags, no external icon fonts, no JS.
 
 - **Color control:** `icon-color(color)` sets a CSS variable used by all icons, making it trivial to theme or override per-component.
 - **Size control:** `icon-size(size)` sets the icon dimensions via a CSS variable with a sensible default of `24px`.
@@ -9,14 +9,14 @@
 - **Pack macro:** `icon-pack()` outputs all icons and the base setup in a single call.
 - **Dynamic shorthand:** `icon(name)` resolves any icon by name at compile time.
 
-icon-mask is implemented entirely in FSCSS, following the same **FSCSS plugin logic** as libraries like [flex-control](https://github.com/fscss-ttr/flex-control.fscss) and [st-core](https://github.com/fscss-ttr/st-core.fscss).
+icon-mask is implemented entirely in FSCSS, following the same **FSCSS libraries logic** as libraries like [circle-progress](https://github.com/Figsh/Circle-progress.fscss) and [st-core](https://github.com/fscss-ttr/st-core.fscss).
 
 ## Installation
 
 Include FSCSS v1.1.24 or higher, then import **icon-mask** via `@import`:
 
 ```
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.1.24/exec.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.0/runtime.min.js" defer></script>
 ```
 
 This (better)
@@ -88,8 +88,10 @@ Each icon macro accepts an optional class override:
 
 ## Example
 
+**https://hub.devtem.org/fscss-modules/example/dashboard.html**
+
 ```html
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.1.24/exec.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.0/runtime.min.js" defer></script>
 <style>
 @import(exec(*) from icon-mask)
 
