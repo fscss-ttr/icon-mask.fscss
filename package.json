@@ -1,7 +1,7 @@
 {
   "name": "icon-mask",
   "version": "1.0.0",
-  "description": "Lightweight FSCSS-based plugin for SVG icon utilities using CSS mask-image technique",
+  "description": "Lightweight FSCSS-based library for SVG icon utilities using CSS mask-image technique",
   "extension": "fscss",
   "fscss_version": "^1.1.24",
   "blocked_methods": [],
@@ -58,6 +58,7 @@
   "keywords": [
     "fscss",
     "css",
+    "library", 
     "lightweight",
     "fscss-based",
     "icons",
