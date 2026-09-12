@@ -16,7 +16,7 @@ icon-mask is implemented entirely in FSCSS, following the same **FSCSS libraries
 Include FSCSS v1.1.24 or higher, then import **icon-mask** via `@import`:
 
 ```
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.0/runtime.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.1/runtime.min.js" defer></script>
 ```
 
 This (better)
@@ -91,7 +91,7 @@ Each icon macro accepts an optional class override:
 **https://hub.devtem.org/fscss-modules/example/dashboard.html**
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.0/runtime.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.1/runtime.min.js" defer></script>
 <style>
 @import(exec(*) from icon-mask)
 
